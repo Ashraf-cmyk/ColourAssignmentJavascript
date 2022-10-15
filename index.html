@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <title>Changing colours assignment</title>
+  </head>
+  <body>
+    <nav class="nav-main">
+      <div class="btn-toggle-nav" onmouseover="toggleNav()"></div>
+      <h2>
+        You have chosen the colour:
+        <div class="chosen_text">...</div>
+      </h2>
+    </nav>
+    <aside class="nav-sidebar">
+      <ul>
+        <li>
+          <a
+            ><input type="radio" name="color" onclick="myFunctionRed()" /> Press
+            1 : Red</a
+          >
+        </li>
+        <li>
+          <a
+            ><input type="radio" name="color" onclick="myFunctionGreen()" />
+            Press 2 : Green</a
+          >
+        </li>
+        <li>
+          <a>
+            <input type="radio" name="color" onclick="myFunctionYellow()" />
+            Press 3 : Yellow</a
+          >
+        </li>
+        <li>
+          <a>
+            <input type="radio" name="color" onclick="myFunctionBlue()" />
+            Press 4 : Blue</a
+          >
+        </li>
+      </ul>
+    </aside>
+  </body>
+</html>
